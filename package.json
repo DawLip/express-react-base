@@ -18,8 +18,16 @@
   "license": "ISC",
   "dependencies": {
     "animejs": "^3.1.0",
+    "apollo-server-express": "^2.11.0",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "graphql-import": "^1.0.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5",
     "node-fetch": "^2.6.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
@@ -27,7 +35,8 @@
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4",
     "socket.io": "^2.3.0",
-    "socket.io-client": "^2.3.0"
+    "socket.io-client": "^2.3.0",
+    "tls": "0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
